@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "XYParticAndShootingStarController.h"
 
 @interface ViewController ()
 
@@ -19,5 +20,9 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)buttonClick:(UIButton *)sender {
+    XYParticAndShootingStarController * vc = [[XYParticAndShootingStarController alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
+}
 
 @end

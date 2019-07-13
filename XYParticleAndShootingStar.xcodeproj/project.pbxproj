@@ -15,6 +15,7 @@
 		3C45F7C722D6E1540007344F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C45F7C622D6E1540007344F /* main.m */; };
 		3C45F7D122D6E1540007344F /* XYParticleAndShootingStarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C45F7D022D6E1540007344F /* XYParticleAndShootingStarTests.m */; };
 		3C45F7DC22D6E1540007344F /* XYParticleAndShootingStarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C45F7DB22D6E1540007344F /* XYParticleAndShootingStarUITests.m */; };
+		3C45F7ED22D6E24E0007344F /* XYParticAndShootingStarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C45F7EC22D6E24E0007344F /* XYParticAndShootingStarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3C45F7D722D6E1540007344F /* XYParticleAndShootingStarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYParticleAndShootingStarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C45F7DB22D6E1540007344F /* XYParticleAndShootingStarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYParticleAndShootingStarUITests.m; sourceTree = "<group>"; };
 		3C45F7DD22D6E1540007344F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C45F7EB22D6E24E0007344F /* XYParticAndShootingStarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYParticAndShootingStarController.h; sourceTree = "<group>"; };
+		3C45F7EC22D6E24E0007344F /* XYParticAndShootingStarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYParticAndShootingStarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		3C45F7B622D6E1520007344F /* XYParticleAndShootingStar */ = {
 			isa = PBXGroup;
 			children = (
+				3C45F7E922D6E2030007344F /* XYParticAndShootingStar */,
 				3C45F7B722D6E1520007344F /* AppDelegate.h */,
 				3C45F7B822D6E1520007344F /* AppDelegate.m */,
 				3C45F7BA22D6E1520007344F /* ViewController.h */,
@@ -130,6 +134,23 @@
 				3C45F7DD22D6E1540007344F /* Info.plist */,
 			);
 			path = XYParticleAndShootingStarUITests;
+			sourceTree = "<group>";
+		};
+		3C45F7E922D6E2030007344F /* XYParticAndShootingStar */ = {
+			isa = PBXGroup;
+			children = (
+				3C45F7EA22D6E2320007344F /* XYParticAndShootingStarController */,
+			);
+			path = XYParticAndShootingStar;
+			sourceTree = "<group>";
+		};
+		3C45F7EA22D6E2320007344F /* XYParticAndShootingStarController */ = {
+			isa = PBXGroup;
+			children = (
+				3C45F7EB22D6E24E0007344F /* XYParticAndShootingStarController.h */,
+				3C45F7EC22D6E24E0007344F /* XYParticAndShootingStarController.m */,
+			);
+			path = XYParticAndShootingStarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +285,7 @@
 			files = (
 				3C45F7BC22D6E1520007344F /* ViewController.m in Sources */,
 				3C45F7C722D6E1540007344F /* main.m in Sources */,
+				3C45F7ED22D6E24E0007344F /* XYParticAndShootingStarController.m in Sources */,
 				3C45F7B922D6E1520007344F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
